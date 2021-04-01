@@ -4,7 +4,7 @@ module.exports = {
   siteTitle: "Gatsby Starter Portfolio Minimal",
   siteShortTitle: "Gatsby", // Used as logo text in header, footer, and splash screen
   siteDescription:
-    "A modern one-page portfolio with a clean yet expressive design.",
+    "Le CV d'Antoine",
   siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
@@ -94,7 +94,7 @@ module.exports = {
     ],
     button: {
       useFileName: true,
-      name: "Resume",
+      name: "CV",
       fileName: "goldenpuppy.pdf", // the file has to be placed inside the static folder at the root level
       url: "", // if useFileName=false, you can set an anchor link here and use the button for navigational purposes
     },
